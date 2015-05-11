@@ -5,6 +5,6 @@ SOURCES=EdisonCamera.c
 EXECUTABLE=EdisonCamera
 
 all: $(SOURCES) $(EXECUTABLE)
-    
+
 $(EXECUTABLE): $(SOURCES) 
-    $(CC) $(LDFLAGS) $(SOURCES) 
+	$(CC) $(LDFLAGS) $(SOURCES) 

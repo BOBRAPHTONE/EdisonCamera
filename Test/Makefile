@@ -5,6 +5,6 @@ SOURCES=CameraTest.c
 EXECUTABLE=CameraTest
 
 all: $(SOURCES) $(EXECUTABLE)
-    
+
 $(EXECUTABLE): $(SOURCES) 
-    $(CC) $(LDFLAGS) $(SOURCES) 
+	$(CC) $(LDFLAGS) $(SOURCES) 
