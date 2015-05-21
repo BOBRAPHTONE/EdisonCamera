@@ -21,7 +21,7 @@ int main() {
     }
 	else
 	{
-		printf("Everything is OK!\n");
+		printf("Starting !\n");
 
 	}
  
@@ -32,8 +32,8 @@ int main() {
        image = cvQueryFrame(capture);
  
  
-       // waiting 10ms
-	   usleep(10);
+       // waiting 100ms
+	   usleep(100);
  
     }
  
